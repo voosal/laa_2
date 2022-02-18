@@ -56,7 +56,7 @@ def scan_main_file(data):
                     break
             print("Entered index doesn't exist")
 
-        scan_main_file(data[index])
+        scan_main_file(data[index-1])
 
     else:
         print("-------------------------------------")
